@@ -47,7 +47,7 @@
         font-size: 35px;
     }
     .hero-right-category-Box {
-        background: #0f0e0e;
+        background: #202020;
         height: 90px;
         width: 102px;
         margin: 3px 0px;
@@ -447,6 +447,15 @@
     }
     .about-us-content-title p {
         font-size: 14px;
+    }
+    .web-design-svg-section {
+        height: 345px;
+    }
+    .programming-lang-section {
+        padding-bottom: 30px;
+    }
+    .programming-lang-title {
+        margin-top: unset;
     }
 }
 
