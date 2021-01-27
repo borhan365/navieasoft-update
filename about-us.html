@@ -37,12 +37,34 @@
     
                     <!-- Middle logo -->
                     <div class="mobile-header-logo">
-                        <a href="#"><img src="img/white-01.png" class="img-fluid" alt=""></a>
+                        <a href="index.html"><img src="img/white-01.png" class="img-fluid" alt=""></a>
                     </div>
     
                     <!-- Right Menus -->
                     <div class="right-mobile-menu" onclick="MobileCartSidebarToggle()">
-                        <i class="fa fa-shopping-basket"></i>  &nbsp;<span class="badge badge-light">0</span>
+                        <i class="fas fa-search" data-toggle="modal" data-target="#exampleModal"></i>
+                    </div>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -700,7 +722,7 @@
                         <!-- <li><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li> -->
 
                         <!-- Search Field -->
-                        <li onclick="headerSearchOpen()"><a href="#"><i class="fas fa-search"></i></a>
+                        <li onclick="headerSearchOpen()"><a href="#"><i class="fas fa-search"  data-toggle="modal" data-target="#exampleModal"></i></a>
                             <div class="input-group mb-3 header-search-field" id="headerSearchField">
                                 <input type="text" class="form-control footer-mail-input" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <div class="input-group-append">

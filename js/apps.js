@@ -131,43 +131,6 @@ var singleBrandSlider = new Swiper('.single-feature-brand', {
   }
 });
 
-// Index page || Header search 
-function headerSearchOpen() {
-  var x = document.getElementById("headerSearchField");
-  if (x.style.visibility === "hidden" || x.style.visibility == "") {
-    x.style.visibility = "visible";
-  } else {
-    // x.style.visibility = "hidden";
-  }
-}
-
-// Search bar close
-function headerSearchClose() {
-  var y = document.getElementById("headerSearchField");
-  if (y.style.visibility === "visible" || y.style.visibility == "") {
-    y.style.visibility = "hidden";
-  } else {
-    // x.style.visibility = "hidden";
-  }
-}
-
-
-// About us sticky menu
-// window.onscroll = function() {
-//   aboutSticky();
-// };
-
-// var AboutUsNavbar = document.getElementById("AboutUsNavbar");
-// var sticky = AboutUsNavbar.offsetTop;
-
-// function aboutSticky() {
-//   if (window.pageYOffset >= sticky) {
-//     AboutUsNavbar.classList.add("sticky");
-//   } else {
-//     AboutUsNavbar.classList.remove("sticky");
-//   }
-// }
-
 
 
 
